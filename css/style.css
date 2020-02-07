@@ -1,0 +1,460 @@
+@charaset="UTF-8";
+
+body {
+    font-family: 'Cabin Sketch', "Sawarabi Mincho" , cursive;
+    background: url(../img/background_top.png) no-repeat fixed;
+}
+
+
+/*
+#wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+*/
+
+header {
+    width: 100%;
+    height: 600px;
+    background: url(../img/header_back.png) no-repeat;
+    background-position: top;
+    margin: 0 auto 200px;
+}
+
+.site_name {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.menu ul {
+    width: 60%;
+    height: 260px;
+    margin: 200px auto 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li:nth-child(2n+1) {
+    position: relative;
+    top: 100px;
+}
+
+/*メニューボタンの装飾についての設定*/
+.Top_btn {
+    width: 80px;
+    height: 160px;
+    background: url(../img/Top_mono.png) no-repeat;
+    background-size: contain;
+}
+
+.Top_btn a {
+    width: 80px;
+    height: 160px;
+    display: block;
+    /*
+    background-size: contain ;
+    background: url(img/Top_mono.png) no-repeat ;
+*/
+}
+
+.Top_btn a:hover {
+    background: url(../img/Top_color.png) no-repeat;
+    background-size: contain;
+}
+
+.News_btn {
+    width: 80px;
+    height: 160px;
+    background: url(../img/News_mono.png) no-repeat;
+    background-size: contain;
+}
+
+.News_btn a {
+    width: 80px;
+    height: 160px;
+    /*
+     background-size: contain ;
+    background: url(img/News_mono.png) no-repeat ;
+*/
+    display: block;
+}
+
+.News_btn a:hover {
+    background: url(../img/News_color.png) no-repeat;
+    background-size: contain;
+}
+
+.About_btn {
+    width: 80px;
+    height: 160px;
+    background: url(../img/About_mono.png) no-repeat;
+    background-size: contain;
+}
+
+.About_btn a {
+    width: 80px;
+    height: 160px;
+    /*
+    background: url(img/About_mono.png) no-repeat ;
+    background-size: contain ;
+*/
+    display: block;
+}
+
+.About_btn a:hover {
+    background: url(../img/About_color.png) no-repeat;
+    background-size: contain;
+}
+
+.Works_btn {
+    width: 80px;
+    height: 160px;
+    background: url(../img/Works_mono.png) no-repeat;
+    background-size: contain;
+}
+
+.Works_btn a {
+    width: 80px;
+    height: 160px;
+    /*
+    background: url(img/Works_mono.png) no-repeat ;
+    background-size: contain ;
+*/
+    display: block;
+}
+
+.Works_btn a:hover {
+    background: url(../img/Works_color.png) no-repeat;
+    background-size: contain;
+}
+
+.Contact_btn {
+    width: 80px;
+    height: 160px;
+    background: url(../img/Contact_mono.png) no-repeat;
+    background-size: contain;
+}
+
+.Contact_btn a {
+    width: 80px;
+    height: 160px;
+    /*
+    background-size: contain ;
+    background: url(img/Contact_mono.png) no-repeat ;
+*/
+    display: block;
+}
+
+.Contact_btn a:hover {
+    background: url(../img/Contact_color.png) no-repeat;
+    background-size: contain;
+}
+
+/*メニューボタン設定ここまで*/
+
+.about_site {
+    width: 1080px;
+    height: 600px;
+    margin: 0 auto 200px;
+}
+
+.about_site .Contents-title {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+.about_site ul {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_site li img {
+    width: 400px;
+}
+
+.about_text {
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    /*    background: #ff0000 ;*/
+}
+
+
+.news {
+    width: 1080px;
+    height: 750px;
+    margin: 0 auto 200px;
+}
+
+.news .Contents-title {
+    width: 90%;
+    height: 130px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.news dl {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    font-size: 25px;
+}
+
+.news dt {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    /*    background:#ccc ;*/
+}
+
+.news dd {
+    width: 70%;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    /*    background:#333 ;*/
+}
+
+
+.contact {
+/*  background: red;*/
+}
+
+.contact h2 {
+  height: 270px;
+  background:url(../img/footer.png) no-repeat ;
+ background-size: cover;
+  background-position: bottom;
+  text-align: center;
+}
+
+.form {
+  background: #000;
+  padding: 30px 200px;
+  
+}
+
+.form dl dt {
+  width: 200px;
+  padding: 10px 0;
+  font-size: 20px;
+  float: left;
+  clear: both;
+  color: #fff;
+}
+
+.form dl dd {
+  padding: 10px 0;
+}
+
+.form_title {
+  width: 100%;
+  position: relative;
+  top: 200px;
+  color: #fff;
+background: #000;
+  font-size: 50px;
+}
+
+.form .name {
+  width:200px ;
+  height: 30px ;
+  padding: 0 10px;
+}
+
+.form .email {
+  width:300px ;
+  height: 30px ;
+  padding:0 10px;
+}
+
+.form .type {
+  width:200px ;
+  height: 30px ;
+}
+
+.form .message {
+  width:400px ;
+  height: 130px ;
+  padding: 10px;
+}
+
+.form .required:after {
+  content: " *" ;
+  color: red;
+  font-size: px;
+}
+
+.form .submit_btn {
+  width: 120px ;
+  height: 50px;
+  font-family: 'Cabin Sketch', "Sawarabi Mincho" , cursive;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  margin-left: 300px;
+}
+
+.form .submit_btn:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.form .attention {
+  width: 500px;
+  color: #fff;
+  margin: 10px 0 50px 200px ;
+  line-height: 1.5;
+}
+
+/*
+#page_top{
+  display: none;
+  width: 100px;
+  height: 100px;
+  position:fixed;
+  bottom: 150px;
+  right: 50px;
+}
+
+#page_top img {
+  width: 100px;
+  height: auto;
+}
+
+#page_top a{
+  display: block;
+  text-decoration: none;
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+#page_top a:hover {
+  display: block;
+  background: url(../img/page_top_hover.png) no-repeat;
+}
+*/
+/*
+footer {
+    width: 100%;
+    height: 350px;
+    margin-top: auto;
+    background-size: cover;
+    background-position: bottom;
+    font-size: 20px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 280px;
+    padding-bottom: 20px;
+}
+*/
+/* 雨 */
+.rain{
+  position: fixed;
+  top: -5%;
+
+  /*　雨の大きさ　*/
+  font-size: 25px;
+
+  /* 雨の色 */
+  color: #e3e3e3;
+
+  /* 雨 */
+  text-shadow: 
+    5vw -200px 0,
+    10vw -400px 0,
+    20vw -500px 0,
+    30vw -580px 0,
+    39vw -250px 0,
+    42vw -340px 0,
+    56vw -150px 0,
+    63vw -180px 0,
+    78vw -220px 0,
+    86vw -320px 0,
+    94vw -170px 0;
+  z-index: 1;
+
+  animation: rain_anim 2.8s linear infinite;
+}
+
+/* 波紋 */
+.ripple{
+  position: fixed;
+  bottom: 0;
+
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+
+  box-shadow: 0 0 3px 1px white;
+  transform: perspective(500px) rotateX(80deg);
+}
+
+.ripples .ripple:nth-child(1){
+  left: 10vw;
+
+  animation: ripple_anim 2s 4s linear infinite;
+}
+
+.ripples .ripple:nth-child(2){
+  left: 40vw;
+
+  animation: ripple_anim 3s 4.8s linear infinite;
+}
+
+.ripples .ripple:nth-child(3){
+  left: 70vw;
+
+  animation: ripple_anim 4s 6.5s linear infinite;
+}
+
+/* アニメーション */
+
+@keyframes rain_anim{
+  60%{
+    top: 80%;
+  }
+
+  100%{
+    top: 150%;
+    color: transparent;
+  }
+}
+
+@keyframes ripple_anim{
+  0%{
+    width: 50px;
+    height: 50px;
+  }
+
+  100%{
+    width: 50px;
+    height: 50px;
+    transform: perspective(500px) scale(4) rotateX(80deg);
+    box-shadow: none;
+  }
+}
+
+/* 共通の設定 */
+
+ul {
+    list-style-type: none;
+}
